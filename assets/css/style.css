@@ -2,6 +2,12 @@
     width: 960px;
     margin: 0 auto;
     background: #EEE;
+    display: block;
+    color: #777777;
+}
+
+.title-text {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 header {
@@ -9,12 +15,9 @@ header {
     width: 960px;
     clear: both;
     color: #777777;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #ffffff;
     border-color: #cccccc;
     overflow: auto;
-    
-
 }
 
 h1 {
@@ -25,14 +28,20 @@ h2 {
     font-size: 24px;
 }
 
-h3 {
-    font-size: 16px;
+h3, p {
+    font-size: 18px;
 }
+
 
 a {
     text-decoration: none;
     color: inherit;
 }
+
+hr {
+    margin: 15px 0px;
+}
+
 
 .nav-title {
     width: 650px;
@@ -53,7 +62,7 @@ a {
 
 .nav-items {
     margin: 5px 10px 5px 0px;
-    width: 200px; 
+    width: 250px; 
     float: left;
     padding: 30px 20px 30px 20px;
     text-align: center;
@@ -61,17 +70,21 @@ a {
 
 .nav-item-about {
     float:left;
-    padding: 5px 10px 5px 0px;
+    margin-right: 5px;
+    border-right: 1px solid #AAA;
+    padding: 5px 10px 5px 5px;
 }
 
 .nav-item-portfolio {
     float:left;
-    padding: 5px 10px 5px 0px;
+    margin-right: 5px;
+    border-right: 1px solid #AAA;
+    padding: 5px 10px 5px 5px;
 }
 
 .nav-item-contact {
     float:left;
-    padding: 5px 10px 5px 0px;
+    padding: 5px 10px 5px 5px;
 }
 
 section {
@@ -94,11 +107,28 @@ section {
 }
 
 .main-section-header {
-    
+    font-weight: bold;
+    color: #4aaaa5;
 }
 
 .main-section-content {
-    
+}
+
+.sub-content {
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.img-profile {
+    float: left;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
 }
 
 .side-bar {
@@ -112,7 +142,8 @@ section {
 }
 
 .side-bar-header {
-    
+    color: #4aaaa5;
+    font-weight: bold;
 }
 
 .side-bar-content {
@@ -130,6 +161,5 @@ footer {
     clear: both;
     color: #EEE;
     background: #666666;
-    border-top-style: solid;
     border-top: 5px solid #4aaaa5;
 }
