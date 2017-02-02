@@ -1,8 +1,8 @@
 #main-body {
     width: 960px;
+    height: 100vh;
     margin: 0 auto;
     background: #EEE;
-    display: block;
     color: #777777;
 }
 
@@ -156,10 +156,14 @@ section {
 }
 
 footer {
+    width: 900px;
+    bottom: 0px;
     padding: 30px;
     text-align: center;
     clear: both;
     color: #EEE;
     background: #666666;
     border-top: 5px solid #4aaaa5;
+    position: fixed;
+    display: inline-block;
 }
