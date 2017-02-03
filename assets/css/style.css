@@ -1,13 +1,19 @@
 #main-body {
     width: 960px;
-    height: 100vh;
+    height: calc(100vh - 85px);
     margin: 0 auto;
-    background: #EEE;
+    background: url("../pattern/pattern.png");
     color: #777777;
+    font-family: sans-serif;
+    overflow: scroll;
 }
 
 .title-text {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.teal-color-text {
+    color: #4aaaa5;
 }
 
 header {
@@ -108,7 +114,6 @@ section {
 
 .main-section-header {
     font-weight: bold;
-    color: #4aaaa5;
 }
 
 .main-section-content {
@@ -131,6 +136,66 @@ section {
     width: 150px;
 }
 
+input {
+    width: 540px;
+}
+
+textarea {
+    width: 540px;
+}
+
+button {
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0px;
+    background: #4aaaa5;
+
+}
+
+button:hover {
+    background: #52EDC7;
+}
+
+.property-name {
+    padding: 7px 0;
+}
+
+.property-value {
+    padding: 7px;
+    margin-bottom: 5px;
+    border-color: #AAA;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 14px;
+}
+
+.portfolio-container {
+    float: left;
+    padding: 5px;
+    margin: 10px 15px;
+    position: relative;
+}
+
+.img-portfolio {
+    width: 240px;
+    height: 190px;
+}
+
+.img-title {
+    background: #4aaaa5;
+    color: #fff;
+    font-size: 20px;
+    top: 130px;
+    padding: 15px 0px;
+    position: absolute;
+    width: 240px;
+    text-align: center;
+}
+
 .side-bar {
     background: #fff;
     margin-left: 10px;
@@ -142,7 +207,6 @@ section {
 }
 
 .side-bar-header {
-    color: #4aaaa5;
     font-weight: bold;
 }
 
@@ -163,7 +227,7 @@ footer {
     clear: both;
     color: #EEE;
     background: #666666;
-    border-top: 5px solid #4aaaa5;
+    border-top: 7px solid #4aaaa5;
     position: fixed;
     display: inline-block;
 }
