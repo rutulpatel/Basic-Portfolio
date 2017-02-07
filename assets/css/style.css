@@ -1,11 +1,23 @@
+body {
+    background: url("../pattern/pattern.png");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main-wrapper {
+    padding: 0 0 85px;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+}
+
 #main-body {
     width: 960px;
-    height: calc(100vh - 85px);
+    height: 100%;
     margin: 0 auto;
-    background: url("../pattern/pattern.png");
     color: #777777;
     font-family: sans-serif;
-    overflow: scroll;
 }
 
 .title-text {
@@ -220,14 +232,14 @@ button:hover {
 }
 
 footer {
-    width: 900px;
+    width: 100%;
     bottom: 0px;
+    position: fixed;
+    left: 0px;
+    clear: both;
     padding: 30px;
     text-align: center;
-    clear: both;
     color: #EEE;
     background: #666666;
     border-top: 7px solid #4aaaa5;
-    position: fixed;
-    display: inline-block;
 }
